@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>shipping details</title>
+<style>
+fieldset{
+background-color:lightgray;
+border:10px solid black;
+width:720px;
+left-margin:120px;
+}
+textarea{
+width:360px;
+		height:50px;
+}
+#header{
+background-color:darkblue;
+height:350px;
+}
+.container{
+    margin: auto;
+    width: 1000px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div id="header">
+<h1 style="color:white;font-size:400%;text-align:center";><br>Please Enter Your Shipping<br> Details:</h1>
+</div>
+</div>
+</header><br>
+<div class="container">
+<form>
+<fieldset>
+<legend><h1 style="color:Darkblue";>Your General Details:</h1> </legend>
+First name:<br>
+<input type="text" name="First name" placeholder="your first name"><br>
+<br>
+Last name :<br>
+<input type="text" name="Last name" placeholder="your last name"><br>
+<br>
+Age:<br>
+<input type="number" name="age" placeholder="18"><br>
+<br>
+Gender: <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other 
+<br>
+</fieldset>
+<fieldset>
+<legend><h1 style="color:Darkblue";>Your Shipping Details:</h1></legend>
+Shipping Address:<br>
+<textarea row="3" column="20"name= "Shipping Address"></textarea>
+<br>
+Country:<br>
+<select name="country">
+<option value=""></option>
+<option value="india">India</option>
+<option value="Hong kong">Hong kong</option>
+<option value="USA">USA</option>
+<option value="Japan">Japan</option>
+<option value="China">China</option>
+<option value="Australia">Australia</option>
+</select><br>
+State:<br>
+<input type = "text" name= "state">
+<br>
+City:<br>
+<input type = "text" name= "city">
+<br>
+Landmark:<br>
+<input type = "text" name= "landmark">
+<br>
+Contact no: <br>
+<input type="tel" name= "phone number">
+<br>
+ E-mail: <br>
+  <input type="email" name="email">
+<br>
+</fieldset>
+<a style="font-size:18px;color:blue"; href ="thanks.html"> <br><b>Submit</b></a>
+</div>
+</form>
+</body>
+</html>

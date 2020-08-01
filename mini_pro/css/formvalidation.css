@@ -1,0 +1,41 @@
+	<style>
+	.one{
+	background-color:cyan;
+	border:5px solid red;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+	
+	
+	 padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;}
+		.two{
+		background-color:yellow;
+	border:5px solid red;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+	
+	
+	 padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;}
+	
+	label checkbox{width:auto;}
+	
+	label:hover { font-size:40px }
+label{
+	width:180px;
+	display:inline-block;
+	text-align:right; }
+	body{background-color:darkblue;}
+.three{
+}
+	
+	</style>
+	

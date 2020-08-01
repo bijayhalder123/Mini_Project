@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+        Registration Page
+    </title>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+     <script src="jquery.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style_si.css" /> -->
+	
+	<link href="css/formvalidation.css" rel="stylesheet">
+</head>
+<body>
+<!--<form>-->
+<div class ="two">
+<form  action="dbConnectClass.php" method="post" >
+  <h1> LogIn</h1>
+  <div>
+  <p>
+    <label for="user">USER NAME</label>
+    <input type="text" name="username" id="txtReqUsername"/>  
+    <span id="UserMessage"></span> <br><br>
+  </p>
+    
+  <p>
+    <label for="password">PASSWORD</label>
+   <input type="password" autocomplete="off" name="password" id="txtReqPassword">
+    <span id="PwdMessage"></span>
+
+  </p>
+  
+
+  </div>
+  <p>
+  	<span id ="Emptyfield"></span>
+      <input type="submit"  name="go" id="go" value="submit">
+      
+  </p>
+  </div>
+</form>
+
+
+<script src="validation.js"></script>
+
+</body>
+</html>
